@@ -12,11 +12,11 @@
 
     <div class="conteiner">
         <div class="image">
-            <img src="./img/desligada.jpg" alt="lâ,pada desligada">
+            <img id="lampada" ondblclick="breek()" onmouseenter="hover()"  src="./img/desligada.jpg" alt="lâ,pada desligada">
         </div>
         <div class="botoes">
-            <button class="btn">LIGADO</button>
-            <button class="btn">DESLIGADO</button>
+            <button id="lampOn" class="btn" onclick="lamOn()">LIGADO</button>
+            <button id="lampOff" class="btn" onclick="lamOff()">DESLIGADO</button>
         </div>
        
     </div><!--conteiner-->
